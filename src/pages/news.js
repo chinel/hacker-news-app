@@ -13,8 +13,6 @@ const NewsPage = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    console.log(startIndex);
-    console.log(lastIndex);
     dispatch(fetchNews("topstories", setLoading, startIndex, lastIndex));
   }, [dispatch, lastIndex, startIndex]);
 
@@ -23,7 +21,6 @@ const NewsPage = () => {
     setLastIndex((lastIndex) => lastIndex + 5);
   };
 
-  console.log(newsData);
   return (
     <Layout>
       {newsData.length > 0 ? (

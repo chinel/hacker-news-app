@@ -21,7 +21,6 @@ const JobsPage = () => {
     setLastIndex((lastIndex) => lastIndex + 5);
   };
 
-  console.log(newsData);
   return (
     <Layout>
       {newsData.length > 0 ? (

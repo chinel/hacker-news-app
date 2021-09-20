@@ -6,7 +6,6 @@ const INITIAL_STATE = {
 const newsReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case NewsTypes.FETCH_NEWS:
-      console.log(action.payload.newsData);
       return {
         ...state,
         newsData: [...state.newsData, ...action.payload.newsData],
