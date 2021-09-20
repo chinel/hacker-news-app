@@ -1,0 +1,71 @@
+.app {
+  width: 76%;
+  margin: 0.5rem auto;
+}
+
+.app .app__header {
+  background-color: #ff6600;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.app .app__header div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+}
+
+.app .app__header a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.app .app__logo {
+  border: 1px solid #fff;
+  margin-right: 0.4rem;
+  height: 1.5rem;
+  margin-bottom: -0.2rem;
+  margin-left: 0.2rem;
+}
+
+.app .app__header .app__name {
+  font-weight: 900;
+}
+.app .app__navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app .app__navbar ul li {
+  float: left;
+}
+
+.app .app__navbar ul li a {
+  padding: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+.app .app__main {
+  height: 90vh;
+  background-color: #f6f6ef;
+  padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .app {
+    width: 100%;
+    margin: 0;
+  }
+
+  .app .app__header div:nth-of-type(2) {
+    display: block;
+    margin-left: 0.5rem;
+  }
+
+  .app .app__navbar ul li:nth-of-type(1) a {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.newsList {
+  margin-bottom: 1rem;
+  display: flex;
+}
+.newsList .newsList__content a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.newsList .newsList__numbering span {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #828282;
+  font-size: 1.3em;
+}
+
+.newsList .newsList__content p {
+  margin: 0px;
+  padding: 0px;
+  color: #828282;
+  font-size: 0.9rem;
+}
