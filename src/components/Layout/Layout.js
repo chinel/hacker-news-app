@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
                 <a href="/newest">new</a> |
               </li>
               <li>
-                <a href="/front">past</a> |
+                <a href="/past">past</a> |
               </li>
               <li>
                 <a href="/ask">ask</a> |
